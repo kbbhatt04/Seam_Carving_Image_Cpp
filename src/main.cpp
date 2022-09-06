@@ -364,13 +364,6 @@ void calculate_energy_matrix(int ***rgb, float **matrix, int H, int W)
 
 void solve(int ***rgb, int H, int W, int C, int H_, int W_, int C_)
 {
-    // We've provided you the driver.py and main.cpp for your convinience
-    // Please go through them and understand the file handling and input/output format
-    // Feel free to experiment on your own
-
-    // can access the array using rgb[i][j][k] like a regular 3D array
-
-    // Write your code here
     float **energy_matrix;
     energy_matrix = new float *[H];
     for (int i = 0; i < H; i++)
