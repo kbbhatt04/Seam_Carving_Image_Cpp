@@ -22,8 +22,10 @@ Note: Python script is only compatible with Linux Operating System.
 How to Run:
 python3 ./src/driver.py sample1.jpeg
 
-Sample Input:
+Sample Input (366 x 605):
+
 ![sample4](https://user-images.githubusercontent.com/58835108/188721548-3025e18d-177d-4a06-9412-6b737b2f5906.jpeg)
 
-Sample Output:
+Sample Output (300 x 400):
+
 ![sample_out_4](https://user-images.githubusercontent.com/58835108/188721518-6d3fd83f-47d0-4083-9d39-2470ae42df54.jpeg)
