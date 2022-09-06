@@ -6,6 +6,7 @@ A vertical seam in an image is a path of pixels connected from the top to the bo
 A horizontal seam is a path of pixels connected from the left to the right with one pixel in each column.
 
 Steps:
+
 ○ Energy Calculation: Each pixel has some RGB values. Calculate energy for each pixel.
 For ex.- You can use dual-gradient energy function. You can refer to this link for details
 "https://www.cs.princeton.edu/courses/archive/fall17/cos226/assignments/seam/index.html".
