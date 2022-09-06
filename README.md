@@ -15,15 +15,20 @@ For ex.- You can use dual-gradient energy function. You can refer to this link f
 
 ○ Seam Removal: Remove the lowest energy seam.
 
+
 Python Script extracts the individual pixel’s RGB values from the image, writes them to rgb_in.txt file and loads them in a 3D Matrix "rgb". Also, it will write RGB values into rgb_out.txt file after successfully applying Seam Carving algorithm from main.cpp file and generate image from the rgb_out.txt file.
+
 
 Dependencies:
 Pillow - Python Image Library
 
+
 Note: Python script is only compatible with Linux Operating System.
+
 
 How to Run:
 python3 ./src/driver.py sample1.jpeg
+
 
 Sample Input (366 x 605):
 
