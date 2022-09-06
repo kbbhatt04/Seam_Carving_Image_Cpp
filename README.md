@@ -6,13 +6,10 @@ A vertical seam in an image is a path of pixels connected from the top to the bo
 A horizontal seam is a path of pixels connected from the left to the right with one pixel in each column.
 
 Steps:
-
 ○ Energy Calculation: Each pixel has some RGB values. Calculate energy for each pixel.
 For ex.- You can use dual-gradient energy function. You can refer to this link for details
 "https://www.cs.princeton.edu/courses/archive/fall17/cos226/assignments/seam/index.html".
-
 ○ Seam Identification: Identify the lowest energy seam.
-
 ○ Seam Removal: Remove the lowest energy seam.
 
 Python Script extracts the individual pixel’s RGB values from the image, writes them to rgb_in.txt file and loads them in a 3D Matrix "rgb". Also, it will write RGB values into rgb_out.txt file after successfully applying Seam Carving algorithm from main.cpp file and generate image from the rgb_out.txt file.
